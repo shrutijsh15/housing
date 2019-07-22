@@ -1,0 +1,22 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 14px;
+  font-family: 'Source Sans Pro',sans-serif,Calibri,helvetica,Cantarell,arial,tahoma,verdana;
+}
+/** flex properties **/
+.display-flex{
+  display: flex;
+}
+.flex-1{
+  flex: 1 1 0;
+}
+.space-between{
+  justify-content: space-between;
+}
+.border-grey{
+  border: 1px solid #e5e5e5;
+}
+.fw-600{
+  font-weight: 600;
+}
