@@ -4,19 +4,35 @@ body {
   font-size: 14px;
   font-family: 'Source Sans Pro',sans-serif,Calibri,helvetica,Cantarell,arial,tahoma,verdana;
 }
-/** flex properties **/
+/** FLEX **/
 .display-flex{
   display: flex;
 }
 .flex-1{
   flex: 1 1 0;
 }
+.flex-center{
+  justify-content: center;
+}
 .space-between{
   justify-content: space-between;
 }
+
+/** CURSOR CSS **/
+.cursor-p{
+  cursor: pointer;
+}
+
+/** BORDER CSS **/
 .border-grey{
   border: 1px solid #e5e5e5;
 }
+
+/*** FONTS ***/
 .fw-600{
   font-weight: 600;
+}
+
+.text-center{
+  text-align: center
 }
